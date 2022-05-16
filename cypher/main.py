@@ -1,7 +1,3 @@
-import imp
-from telnetlib import LOGOUT
-
-
 alphabet = [
     "a",
     "b",
@@ -76,10 +72,6 @@ from art import logo
 
 print(logo)
 
-# TODO-4: Can you figure out a way to ask the user if they want to restart the cipher program?
-# e.g. Type 'yes' if you want to go again. Otherwise type 'no'.
-# If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
-# Hint: Try creating a while loop that continues to execute the program if the user types 'yes'.
 should_continue = True
 while should_continue:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
